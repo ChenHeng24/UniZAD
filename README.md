@@ -1,10 +1,10 @@
-## ZeroShotFusion
+## UniZAD
 ## Abstract
 Zero-shot industrial anomaly detection aims to recognize and localize unknown defects without target-domain training samples. However, existing models still struggle to jointly achieve stable global semantics, fine-grained local structures, and precise boundary localization. To address this bottleneck, we propose UniZAD, a unified framework for zero-shot anomaly detection. UniZAD enhances anomaly representation via heterogeneous feature alignment and complementarity, adaptive hierarchical fusion, and multi-scale localization refinement. Specifically, we design a Direction-Aware Semantic-Structure Interaction Module (DSIM) to model complementarity and spatial alignment between ViT global semantics and DINOv2 local structures. To dynamically weight multi-level features, we design an Adaptive Hierarchical Complementary Fusion Module (AHCFM). It employs attention mechanisms to improve response consistency and spatial integrity for defects at various scales. In addition, a Progressive Multi-Scale Supervised Refinement Module (PMSRM) propagates low-resolution anomaly priors to high-resolution stages. It integrates edge gradient information to continuously correct anomaly boundaries, thereby achieving stepwise refinement from coarse localization to fine segmentation. Experimental results demonstrate that UniZAD outperforms existing state-of-the-art methods in both image-level anomaly recognition and pixel-level anomaly segmentation. Ablation studies and visualizations further validate each module, demonstrating that UniZAD yields stable, discriminative representations for industrial zero-shot anomaly detection.
 ### Overall Architecture
-The overall framework of ZeroShotFusion is shown below:
+The overall framework of UniZAD is shown below:
 
-![ZeroShotFusion Architecture](image.png)
+![UniZAD Architecture](image.png)
 
 ## Requirements
 
