@@ -4,7 +4,7 @@ Zero-shot industrial anomaly detection aims to recognize and localize unknown de
 ### Overall Architecture
 The overall framework of UniZAD is shown below:
 
-![UniZAD Architecture](image.png)
+![UniZAD Architecture](图片1.png)
 
 ## Requirements
 
